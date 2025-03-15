@@ -6,7 +6,8 @@ enum Status {
 
     private String value;
 
-    Status(String value) {
+    // private constructor
+    private Status(String value) {
         this.value = value;
     }
 
